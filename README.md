@@ -5,18 +5,18 @@ What a wonderful surprise. I am overwhelmed by the interest people have already 
 Inevitably applications are designed with security principles architects knew about, security folks included. 
 However, as this project demonstrates there are far more than just a 'few' principles, most of which never make it into the design.
 
-For example, security design happens with perhaps a [handfull of principles](https://www.owasp.org/index.php/Category:Principle):
+For example, security design happens with perhaps a [handful of principles](https://www.owasp.org/index.php/Category:Principle):
 
-* least priviledge
-* perimiter security
-* defense in depth
+* least privilege
+* perimeter security
+* defence in depth
  
-As a result, we reguraly see designs without ***seperation of priviledge***. 
+As a result, we regularly see designs without ***separation of privilege***. 
 
 Think about that, *most* web applications today have all their eggs in a single basket.
 
-The business logic, the identities, passwords, products, policy enforcement, security rules are all found in the same applicaiton database that makes up the typical website!
-It is little wonder then, that attacks on the database have been so completely devistating, since there is no seperation of priviledge!
+The business logic, the identities, passwords, products, policy enforcement, security rules are all found in the same application database that makes up the typical website!
+It is little wonder then, that attacks on the database have been so completely devastating, since there is no separation of privilege!
 
 I hope that with this project, we can identify and describe a minimum functional set of principles that must be present in a secure design. I hope you will join me.
 
@@ -37,6 +37,6 @@ Additionally, many are re-statements of the same idea; thus, the 'collection of 
 ## Purpose
 
 The end goal is to identify, cite, and document the fundamental principles of information security. Once this is well organised, I think it would be great to publish this via [OWASP Press](http://scriptogr.am/dennis-groves/post/owasp-press).
-Of course, it will *always* remain freely availible, and any money collected will go directly into the project to absorb costs with any remaining funds going to the OWASP Foundation. 
+Of course, it will *always* remain freely available, and any money collected will go directly into the project to absorb costs with any remaining funds going to the OWASP Foundation. 
 
-This document shoud serve as a guide to technical architects and designers outlining the fundimental principles of security. 
+This document should serve as a guide to technical architects and designers outlining the fundamental principles of security. 
