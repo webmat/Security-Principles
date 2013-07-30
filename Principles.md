@@ -1,13 +1,14 @@
 So this is the collection of aphorisms so far. As you can see, a number of aphorisms grouped together all identify a particular principle such as 'reduce surface area.' Additionally, it tells us how to build, architect design, verify and impliment a secure system. Currently, the aphorisms need to be identified as either a principle or a description of a principle. I would then like to identify the correct citation for this priniple (if possible), and then document it. Two principles have been identified below. Also Saltzer and Schroeder for example are definately included.
 
+# Principles
 
-# Reduce Surface Area
+## Reduce Surface Area
   - Fail to a Secure Mode
   - Fail Safe Defaults
   - If You Don't Use It, Disable It
   - Use Secure Defaults
 
-# Reluctance to Trust 
+## Reluctance to Trust 
   - Assume All Input Is Malicious
   - Do Not Trust User Input
   - Centralize Input Validation
@@ -17,65 +18,87 @@ So this is the collection of aphorisms so far. As you can see, a number of aphor
   - Do Not Trust HTTP Header Information
   - Never Assuming that your Secrets are Safe 
 
-# aphorisms
-* Least Privilege 
-* Adopt the Principle of Least Privilege
-* Audit And Log Access Across Application Tiers
-* Back Up And Analyze Log Files Regularly
-* Be Able to Disable Accounts
-* Be Careful with Canonicalization Issues
-* Catch Exceptions
-* Check at the Gate
-* Complete Mediation 
-* Consider Authorization Granularity
-* Consider How Your Application Will Flow Caller Identity Across 
-* Design for Failure 
-* Design Security in from the start 
-* Do Not Develop Your Own Cryptography
-* Do Not Leak Information to the Client
-* Do Not Pass Sensitive Data Using the HTTP-GET Protocol
-* Do Not Send Passwords over the Wire in Plaintext
-* Do Not Store Database Connections, Passwords, Or Keys in Plaintext
-* Do Not Store Passwords in User Stores
-* Do Not Store Secrets If You Can Avoid It
-* Do Not Store Secrets in Code
-* Do Not Store Sensitive Data in Persistent Cookies
-* Do Not Rely on Security by Obscurity
-* Do Not virtualise across security boundaries 
-* Economy of Mechanism 
-* Encrypt Sensitive Cookie State
-* Encrypt the Contents of Authentication Cookies
-* Encrypt the Data Or Secure the Communication Channel
-* Include the flexibility to change security controls in the future 
-* Keep Unencrypted Data Close to the Algorithm
-* Least Common Mechanism 
-* Limit Session Lifetime
-* Log Detailed Error Messages
-* Log Key Events
-* Make Sure That Users Do Not Bypass Your Checks
-* Multiple Application Tiers
-* Open Design 
-* Orthogonal Security Mechanisms 
-* Product Certifications are of little utility 
-* Promote Privacy 
-* Protect Authentication Cookies
-* Protect Session State from Unauthorized Access
-* Protect Your Administration Interfaces
-* Protect Your Configuration Stores
-* Protect Your Encryption Keys
-* Psychological Acceptability 
-* Require Strong Passwords
-* Restrict User Access to System Level Resources
-* Retrieve Sensitive Data on Demand
-* Semantically consistent defence in depth 
-* Separate Administration Privileges
-* Separate Public And Restricted Areas
-* Separation of Privilege 
-* Support Password Expiration Periods
-* Threats Change 
-* Use Account Lockout Policies for End-user Accounts
-* Use Configuration Control 
-* Use Defense in Depth
-* Use SSL to Protect Session Authentication Cookies
-* Use the Correct Algorithm And Correct Key Size
-* Securing the Weakest Link
+# Collection of Aphorisms
+  - Adopt The Principle Of Least Privilege
+  - Assume All Input Is Malicious
+  - Assume External Systems Are Insecure
+  - Audit And Log Access Across Application Tiers
+  - Avoid Storing Secrets In The Local Security Authority (lsa)
+  - Back Up And Analyze Log Files Regularly
+  - Be Able To Disable Accounts
+  - Be Careful With Canonicalization Issues
+  - Catch Exceptions
+  - Centralize Your Approach
+  - Check At The Gate
+  - Complete Mediation 
+  - Consider Authorization Granularity
+  - Consider How Your Application Will Flow Caller Identity Across 
+  - Consider Identity Flow
+  - Constrain, Reject, And Sanitize Your Input
+  - Design For Failure 
+  - Design Security In From The Start 
+  - Do Not Develop Your Own Cryptography
+  - Do Not Leak Information To The Client
+  - Do Not Pass Sensitive Data Using The Http-get Protocol
+  - Do Not Rely On Client-side Validation
+  - Do Not Rely On Security By Obscurity
+  - Do Not Send Passwords Over The Wire In Plaintext
+  - Do Not Store Database Connections, Passwords, Or Keys In Plaintext
+  - Do Not Store Passwords In User Stores
+  - Do Not Store Secrets If You Can Avoid It
+  - Do Not Store Secrets In Code
+  - Do Not Store Sensitive Data In Persistent Cookies
+  - Do Not Trust Http Header Information
+  - Do Not Virtualise Across Security Boundaries 
+  - Don't Rely On Security By Obscurity
+  - Don't Trust User Input
+  - Economy Of Mechanism 
+  - Encrypt Sensitive Cookie State
+  - Encrypt The Contents Of Authentication Cookies
+  - Encrypt The Contents Of The Authentication Cookies
+  - Encrypt The Data Or Secure The Communication Channel
+  - Fail To A Secure Mode
+  - If You Don't Use It, Disable It
+  - Include The Flexibility To Change Security Controls In The Future 
+  - Keep Unencrypted Data Close To The Algorithm
+  - Least Common Mechanism 
+  - Least Privilege 
+  - Limit Session Lifetime
+  - Log Detailed Error Messages
+  - Log Key Events
+  - Maintain Separate Administration Privileges
+  - Make Sure That Users Do Not Bypass Your Checks
+  - Multiple Application Tiers
+  - Open Design 
+  - Orthogonal Security Mechanisms 
+  - Product Certifications Are Of Little Utility 
+  - Promote Privacy 
+  - Protect Authentication Cookies
+  - Protect Log Files
+  - Protect Session State From Unauthorized Access
+  - Protect Your Administration Interfaces
+  - Protect Your Configuration Stores
+  - Protect Your Encryption Keys
+  - Psychological Acceptability 
+  - Reduce Surface Area
+  - Require Strong Passwords
+  - Restrict User Access To System Level Resources
+  - Retrieve Sensitive Data On Demand
+  - Securing The Weakest Link
+  - Security Is A Concern Across All Of Your Application Layers And Tiers
+  - Semantically Consistent Defence In Depth 
+  - Separate Administration Privileges
+  - Separate Public And Restricted Areas
+  - Separation Of Privilege 
+  - Support Password Expiration Periods
+  - Threats Change 
+  - Use Account Lockout Policies For End-user Accounts
+  - Use Configuration Control 
+  - Use Data Protection Api (dpapi) For Encrypting Secrets
+  - Use Defense In Depth
+  - Use Least Privileged Process And Service Accounts
+  - Use Multiple Gatekeepers
+  - Use Secure Defaults
+  - Use Ssl To Protect Session Authentication Cookies
+  - Use The Correct Algorithm And Correct Key Size
+  - Validate All Values Sent From The Client
